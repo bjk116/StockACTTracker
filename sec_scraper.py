@@ -19,6 +19,7 @@ from requests_html import HTMLSession
 
 
 SEC_SENATE_STOCK_DISCLOSURE_URL = "https://sec.report/Senate-Stock-Disclosures"
+# Possible transaction resource - DATA_SOURCE = "https://senate-stock-watcher-data.s3-us-west-2.amazonaws.com/aggregate/all_transactions_for_senators.json"
 
 def getHTML():
     session = HTMLSession()
